@@ -7,8 +7,6 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import App from "../components/App";
 
-const Hello = (props) => <div>Hello {props.name}!</div>;
-
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
     <Router>
